@@ -13,9 +13,16 @@
         android:theme="@style/Theme.FitMeAppDemo"
         tools:targetApi="31">
         <activity
-            android:screenOrientation="nosensor"
+            android:name=".MainActivity2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Activities.SplashScreen"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,11 +34,10 @@
                 android:value="" />
         </activity>
         <activity
-            android:screenOrientation="nosensor"
-            android:theme="@style/Theme.Design.NoActionBar"
             android:name=".Activities.MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.Design.NoActionBar"></activity>
     </application>
 
 </manifest>
