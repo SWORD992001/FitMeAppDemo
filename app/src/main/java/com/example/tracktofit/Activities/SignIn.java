@@ -1,12 +1,12 @@
-package com.example.fitmeappdemo.Activities;
+package com.example.tracktofit.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-import com.example.fitmeappdemo.R;
+import com.example.tracktofit.R;
 
-public class MainActivity2 extends AppCompatActivity {
+public class SignIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

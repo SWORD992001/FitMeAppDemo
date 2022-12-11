@@ -1,4 +1,4 @@
-package com.example.fitmeappdemo;
+package com.example.tracktofit;
 
 import org.junit.Test;
 

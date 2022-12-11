@@ -1,4 +1,4 @@
-package com.example.fitmeappdemo.RoomDB;
+package com.example.tracktofit.RoomDB;
 
 import android.content.Context;
 

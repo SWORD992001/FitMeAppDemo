@@ -1,4 +1,4 @@
-package com.example.fitmeappdemo.Activities;
+package com.example.tracktofit.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
-import com.example.fitmeappdemo.R;
+import com.example.tracktofit.R;
 
 public class SplashScreen extends AppCompatActivity {
 
